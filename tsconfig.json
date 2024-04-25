@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "strict": true,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "types": [],
+        "allowJs": true,
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "baseUrl": ".",
+        "outDir": "./dist",
+        "paths": {
+            "@root/*": [
+                "./*"
+            ]
+        }
+    },
+    "include": [
+        "./action/**/*",
+        "./api/**/*",
+        "./components/**/*",
+        "./config/**/*",
+        "./lib/**/*",
+        "./projects/**/*",
+        "./store/**/*",
+        "./utils/**/*",
+        "./types/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "public",
+    ]
+}

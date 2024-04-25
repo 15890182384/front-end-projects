@@ -1,0 +1,12 @@
+/projects/**/middle
+/projects/**/pc
+/projects/**/admin
+
+
+
+# root
+**/node_modules
+**/yarn-debug.log
+**/yarn-error.log
+/node_modules
+
