@@ -11,8 +11,6 @@ program
     .argument("<project-name>", "打包的项目名称")
     .argument("mode", "serve,test")
     .description("项目打包")
-
-    .option("-g", "是否先合并代码")
     .option("-u", "是否上传")
     .action((projectName, modestr, options) => {
 

@@ -1,8 +1,7 @@
 {
-  "name": "common-projects",
+  "name": "front-end-projects",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "directories": {
     "lib": "lib"
   },

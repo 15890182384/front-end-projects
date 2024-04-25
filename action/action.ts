@@ -101,7 +101,7 @@ export function createDownFile(service: AxiosInstance) {
     }
 }
 
-export function createAction(service:AxiosInstance) {
+export function createAction(service: AxiosInstance) {
     return {
         postAction: createPostAction(service),
         httpAction: createHttpAction(service),
@@ -115,9 +115,9 @@ export function createAction(service:AxiosInstance) {
     }
 }
 
-export function createApi<P extends RequestParam =any,R=any>(
-    url:string,
-    action:any
-    ):(params:P)=>ReturnType<HandleRequest<P,R>>{
-        return (params:P)=>config.handleRequest(url,params,action)
+export function createApi<P extends RequestParam = any, R = any>(
+    url: string,
+    action: any
+): (params: P) => ReturnType<HandleRequest<P, R>> {
+    return (params: P) => config.handleRequest(url, params, action)
 }

@@ -1,0 +1,27 @@
+{
+    "extends":"../../tsconfigCommon.json",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "baseUrl": ".",
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./src/**/*.d.ts",
+        "./src/**/*.tsx",
+        "./*.ts",
+        "../../config/**/*",
+        "../../api/**/*",
+        "../modules/**/*",
+        "../../types/**/*",
+        "../../utils/**/*",
+        "../../store/**/*",
+        "../../action/**/*",
+        "../../components/**/*",
+        "../../lib/**/*"
+    ],
+    "exclude": [
+        "public",
+        "src/**/*.js",
+        "./dist/**/*.js"
+    ]
+}
